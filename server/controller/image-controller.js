@@ -9,7 +9,7 @@ conn.once("open", () => {
   gfs.collection("fs");
 });
 
-const url = "https://say-yourmind.herokuapp.com";
+const url = "https://blog-website-api-tau.vercel.app";
 
 export const UploadImage = async (request, response) => {
   try {
