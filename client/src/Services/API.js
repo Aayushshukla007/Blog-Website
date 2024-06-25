@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://say-yourmind.herokuapp.com";
+const url = "https://blog-website-api-tau.vercel.app";
 
 export const createPost = async (post) => {
   try {
